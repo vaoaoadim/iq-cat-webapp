@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(135deg, #ffe8ec, #d5f3ff);
+  font-family: 'Fredoka', sans-serif;
+  padding: 20px;
+  margin: 0;
+  color: #333;
+}
+.container {
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+h1 {
+  font-size: 1.8rem;
+  color: #ff69b4;
+}
+.question-box {
+  font-size: 1.2rem;
+  margin: 25px 0;
+}
+.answers button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  font-size: 1rem;
+  border: none;
+  background-color: #ffdef2;
+  color: #444;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.answers button:hover {
+  background-color: #ffc6e4;
+}
+.result {
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+.retry-btn {
+  margin-top: 20px;
+  background-color: #c8f7e3;
+}
+.retry-btn:hover {
+  background-color: #a9f0d1;
+}
